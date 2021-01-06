@@ -13,4 +13,7 @@ Kindly use the following steps for exection of the program:
 
 6. The "ecgdataset" folder is the ECG scalogram images that are pre-created by "ecg_classification.m". I am keeping it for your reference. You can delete that folder and again create it by executing     "ecg_classification.m" code.
 
+One can download input set of ecg signals i.e, "ECGData.mat" from here:
+https://github.com/mathworks/physionet_ECG_data/
+
 DINESH RAM SAI
