@@ -1,5 +1,3 @@
-DEAR SIR,
-
 Kindly use the following steps for exection of the program:
 
 1. Make sure that "ecg2cwtscg.m" and "ECGData.mat" are in the Matlab working directory. "ecg2cwtscg.m" is the function for converting 1D ECG Signals into 2D Scalogram images using CWT.
@@ -15,6 +13,4 @@ Kindly use the following steps for exection of the program:
 
 6. The "ecgdataset" folder is the ECG scalogram images that are pre-created by "ecg_classification.m". I am keeping it for your reference. You can delete that folder and again create it by executing     "ecg_classification.m" code.
 
-THANK YOU,
-T.DINESH RAM SAI
-18BEC0042
+DINESH RAM SAI
