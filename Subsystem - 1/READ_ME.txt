@@ -2,3 +2,7 @@ While executing these codes, make sure that "ECGData.mat" and "ecg2cwtscg" are i
 
 For example, if your current MATLAB working directory is "C:/Users/Desktop", then make sure the above mentioned
 files are present in the Desktop(Means, in your current MATLAB working directory).
+
+You can the input set of ECG Signals i.e "ECGData.mat" in .mat format from here:
+
+https://github.com/mathworks/physionet_ECG_data/
