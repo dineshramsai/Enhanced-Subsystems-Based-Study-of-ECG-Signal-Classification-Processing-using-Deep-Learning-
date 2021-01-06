@@ -1,0 +1,20 @@
+DEAR SIR,
+
+Kindly use the following steps for exection of the program:
+
+1. Make sure that "ecg2cwtscg.m" and "ECGData.mat" are in the Matlab working directory. "ecg2cwtscg.m" is the function for converting 1D ECG Signals into 2D Scalogram images using CWT.
+
+2. In the "ecg2cwtscg.m" code change the destination folder in lines 8,26,42 accordingly, so that images will save in that folder. Currently, it is having a path of Desktop.
+
+3. Also in the "training_alexnet.m" code, change in the  target folder in line 4. It is the folder in which images are saved and will be used for training purpose. So, give the folder path, which has given in
+    "ecg2cwtscg.m" code.
+
+4. First execute "ecg_classification.m" code. It will create images using the function "ecg2cwtscg.m". 3 Folders(arr,chf, nsr) should be created, each with 300 images. Attached a photo in SUBSYSTEM-1 Folder. Kindly refer that.
+
+5.Next, execute "training_alexnet.m" which will input the images, created by "ecg_classification.m" and performs the DEEP Learning Process.
+
+6. The "ecgdataset" folder is the ECG scalogram images that are pre-created by "ecg_classification.m". I am keeping it for your reference. You can delete that folder and again create it by executing     "ecg_classification.m" code.
+
+THANK YOU,
+T.DINESH RAM SAI
+18BEC0042
